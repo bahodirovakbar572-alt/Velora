@@ -14,13 +14,13 @@ ul{
     padding: 0;
 }
 
-a{
+.ha{
     color: white;
     text-decoration: none;
     font-size: 16px;
 }
 
-a::after{
+.ha::after{
     content: '';
     display: block;
     width: 0;
@@ -29,7 +29,7 @@ a::after{
     transition: width .3s;
 }
 
-a:hover::after{
+.ha:hover::after{
     width: 100%;
 }
 
