@@ -5,6 +5,7 @@ body{
     margin: 0;
     padding: 50px;
     background-image: url("../img/back.jpg");
+    background-size: cover;
 }
 
 ul{
@@ -67,7 +68,7 @@ section::-webkit-scrollbar {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* nom pastda bo‘lsin */
+    justify-content: flex-end;
     align-items: center;
     cursor: pointer;
     color: white;
