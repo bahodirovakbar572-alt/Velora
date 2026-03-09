@@ -1,4 +1,3 @@
-// Real-time soat
 function updateClock(){
     const hourEl = document.querySelector('.hour');
     const now = new Date();

@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "../img")));
   
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../frontend/main.html"));
+  res.sendFile(path.join(__dirname, "../main.html"));
 });
 
 app.get("/about", (req, res) => {
