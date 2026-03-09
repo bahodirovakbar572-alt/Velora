@@ -8,8 +8,8 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = 3030;
 
-app.use(express.static(path.join(__dirname, "../frontend")));
-
+app.use(express.static(path.join(__dirname, "../css")));
+app.use(express.static(path.join(__dirname, "../js")));
 app.use(express.static(path.join(__dirname, "../img")));
   
 
