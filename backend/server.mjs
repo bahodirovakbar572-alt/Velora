@@ -9,6 +9,8 @@ const app = express();
 const PORT = 3030;
 
 app.use(express.static(path.join(__dirname, "../frontend")));
+
+app.use(express.static(path.join(__dirname, "../img")));
   
 
 app.get("/", (req, res) => {
